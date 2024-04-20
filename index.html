@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="white">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Qal o meu Signo</title>
+
+  <script src="//unpkg.com/systemjs@0.19.47/dist/system.js"></script>
+</head>
+<body>
+  
+  <div class="titulo"><h1>Qual o meu signo?</h1></div>
+  
+  <div class="cabecalho">
+    <p>Em que mês você nasceu?</p>
+    
+    <!--<div class="calcular" id="calcular">Calcular</div>-->
+    <img onclick="determinarSigno()" src="web_hi_res_512.png" alt="incone">
+    <br>
+    <input type="date" name="" id="input-data">
+    <br>
+    <br>
+    <span id="signo"></span>
+    <br>
+    <br>
+    <span id="mensagem-signo">Este é o seu signo, suas características respectivas estão aqui embaixo!</span>
+    <br>
+    <div class="caracter-area" id="caracter-area">
+      <h1>Características</h1>
+      <br>
+      <span id="caracter"></span>
+    </div>
+  </div>
+  <center><div class="signo"><h1 id="signo-destaque" style="color: red;"></h1></div></center>
+  
+  
+  <div class="saiba-mais-2" id="saiba-mais-2"><p>saiba mais sobre os siginos e Horóscopos</p><a href="https://capricho.abril.com.br/horoscopo/"><p>Clicando Aqui</p></a>.</div>
+  <script src="config.js"></script>
+</body>
+</html>
