@@ -17,7 +17,7 @@ function determinarSigno() {
   var parts = inputData.value.split("-");
   var dia = parseInt(parts[2]);
   var mes = parseInt(parts[1]);
-
+  
   // Array com os signos, suas respectivas datas e características
   var signos = [
     { nome: "Capricórnio", inicio: { dia: 22, mes: 12 }, fim: { dia: 19, mes: 1 }, caracteristicas: "Ambicioso, disciplinado, realista, prudente, reservado" },
